@@ -18,4 +18,4 @@ def predict():
     return render_template('index.html',prediction_text = 'Car CO2 emmision should be {} grams per kilometer'.format(output))
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=True) 
+    app.run(debug=True) 
